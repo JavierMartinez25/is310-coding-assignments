@@ -1,21 +1,10 @@
-# Init IS310 Homework
+# IS310 Coding Assignments 
 
-## Proof of Installation
+## Repository 
+This repository contains my coding assignments. 
 
-1. Python
+### Assignments
+Init is310 
 
-![Python Installation](images/python-installation.png)
-
-2. Git
-
-![Git Installation](images/git-installation.png)
-
-3. VS Code
-
-![VS Code Installation](images/vscode-installation.png)
-
-4. AI Tool/Workflow 
-
-How will you work with AI? What tools if any do you plan to use?
-I will mainly use AI tools to correct grammar and brainstorm ideas. ChatGPT will be the only tool I will use. 
-Hypothesis username: javier25
+## Course Website
+https://cultureasdata-uiuc.github.io/is310-spring-2026/ 
