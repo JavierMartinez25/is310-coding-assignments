@@ -1,10 +1,10 @@
 First-Person Shooters (FPS) place the player directly inside the action.
 
 FPS games:
-- First-person perspective
-- Fast reaction time and precision aiming
-- Map knowledge and spatial awareness
-- Competitive balance between weapons and movement
+First-person perspective
+Fast reaction time and precision aiming
+Map knowledge and spatial awareness
+Competitive balance between weapons and movement
 
 These games reward moment-to-moment decision making.
 

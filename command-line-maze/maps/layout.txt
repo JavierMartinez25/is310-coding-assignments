@@ -1,9 +1,8 @@
 Map layout controls player flow and encounters.
 
 FPS maps often use:
-- Choke points
-- Open combat zones
-- Vertical spaces
-- Clear sightlines and cover
+Open combat zones
+Vertical spaces
+Clear sightlines and cover
 
 Good layouts encourage movement and strategic positioning.

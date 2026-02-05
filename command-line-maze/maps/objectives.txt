@@ -1,8 +1,8 @@
 Objectives shape how players move through maps.
 
 Examples include:
-- Control points
-- Cash-out stations
-- Escort-style objectives
+Control points
+Cash-out stations
+Escort-style objectives
 
 Objectives force interaction and prevent passive play.
