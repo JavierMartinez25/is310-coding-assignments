@@ -1,0 +1,6 @@
+Platformers center on movement, timing, and spatial challenges.
+
+Although movement is important in FPS games, platformers
+treat movement as the main challenge rather than combat.
+
+This file is a dead end.

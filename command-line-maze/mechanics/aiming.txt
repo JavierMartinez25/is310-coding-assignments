@@ -1,0 +1,10 @@
+Aiming is the core mechanic of most FPS games.
+
+It involves:
+- Crosshair placement
+- Tracking moving targets
+- Flicking and reaction speed
+- Weapon accuracy and recoil control
+
+Next:
+Read about how players move and position themselves in combat.

@@ -1,0 +1,11 @@
+Maze Complete.
+
+The FPS represented by this maze is THE FINALS.
+
+THE FINALS demonstrates modern FPS design by combining:
+- Genre: competitive first-person shooter
+- Mechanics: aiming, movement, and environmental destruction
+- Design patterns: feedback loops, risk-reward systems, and objective-based play
+
+Its fast pace, vertical maps, and destructible environments
+emphasize player creativity, adaptability, and teamwork.

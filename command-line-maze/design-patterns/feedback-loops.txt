@@ -1,0 +1,12 @@
+Feedback loops encourage players to repeat certain behaviors.
+
+In FPS games:
+- Winning fights can lead to better positioning
+- Success builds confidence and momentum
+- Learning maps and mechanics improves performance over time
+
+These loops push players to keep playing and improving.
+
+Final step:
+The solution is located at the end of this maze.
+Find the folder labeled End and read the solution file.

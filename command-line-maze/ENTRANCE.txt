@@ -1,0 +1,11 @@
+The FPS Maze.
+
+This maze explores how first-person shooters are built through
+genres, mechanics, map design, and recurring design patterns.
+
+Your goal is to navigate the folders and files to reach the solution.
+
+Start by listing what is in this directory.
+Hint: use the command `ls`
+
+Begin with the folder that categorizes different types of games.

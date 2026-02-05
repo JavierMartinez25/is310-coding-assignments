@@ -1,0 +1,7 @@
+Design patterns are reusable solutions to common game design problems.
+
+FPS games rely on patterns to encourage engagement,
+competition, and player mastery.
+
+To continue:
+Read the file about how games reinforce player behavior.

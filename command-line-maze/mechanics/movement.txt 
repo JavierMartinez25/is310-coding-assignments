@@ -1,0 +1,14 @@
+Movement in FPS games affects pacing, survival, and positioning.
+
+Includes:
+- Strafing and sliding
+- Vertical movement
+- Sprinting versus tactical movement
+
+Movement often determines who controls space during fights.
+
+Next:
+Go to the folder that explains recurring design solutions
+used to guide player behavior.
+
+Hint: design-patterns
