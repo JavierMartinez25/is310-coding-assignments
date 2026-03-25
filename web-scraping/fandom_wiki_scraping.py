@@ -4,79 +4,40 @@ from bs4 import BeautifulSoup
 
 scraper = cloudscraper.create_scraper()
 
-def get_npc_page_links(url):
+def get_page_links(url):
     try:
         response = scraper.get(url)
         if response.status_code != 200:
             return []
 
         soup = BeautifulSoup(response.text, "html.parser")
-        links = soup.find_all("a")
+
+        content = soup.find("div", class_="mw-parser-output")
+        links = content.find_all("a") if content else []
 
         return [
             {
-                "link_text": link.get_text(),
-                "link_href": link.get("href")
+                "weapon_name": link.get_text(strip=True),
+                "weapon_link": link.get("href")
             }
-            for link in links if link.get("href")
+            for link in links
+            if link.get("href") and link.get_text(strip=True)
         ]
 
     except Exception as e:
         print(f"Error getting links from {url}: {e}")
         return []
 
-def fetch_npcs(url):
-    try:
-        response = scraper.get(url)
-        if response.status_code != 200:
-            return []
+page_data = get_page_links("https://terraria.fandom.com/wiki/Weapons")
 
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        npcs = []
-        links = soup.find_all("a")
-
-        for link in links:
-            href = link.get("href")
-            text = link.get_text(strip=True)
-
-            if href and text and href.startswith("/wiki/") and "Category:" not in href:
-                npcs.append(link)
-
-        npc_data = []
-
-        for npc in npcs:
-            print(f"Processing {npc.get_text()}...")
-
-            npc_info = {
-                "npc_name": npc.get_text(),
-                "npc_link": npc.get("href")
-            }
-
-            full_npc_url = "https://terraria.fandom.com" + npc_info["npc_link"]
-            npc_info["page_links"] = get_npc_page_links(full_npc_url)
-            npc_info["page_links_count"] = len(npc_info["page_links"])
-
-            npc_data.append(npc_info)
-
-        return npc_data
-
-    except Exception as e:
-        print(f"Error in fetch_npcs: {e}")
-        return []
-
-npc_data = fetch_npcs("https://terraria.fandom.com/wiki/Category:NPC_NPCs")
-
-with open("terraria_npcs.csv", "w", newline="", encoding="utf-8") as file:
+with open("terraria_weapons_links.csv", "w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
-    writer.writerow(["npc_name", "npc_link", "page_links", "page_links_count"])
+    writer.writerow(["weapon_name", "weapon_link"])
 
-    for npc in npc_data:
+    for link in page_data:
         writer.writerow([
-            npc["npc_name"],
-            npc["npc_link"],
-            npc["page_links"],
-            npc["page_links_count"]
+            link["weapon_name"],
+            link["weapon_link"]
         ])
 
-print("Done! Data saved to terraria_npcs.csv")
+print("Done! Data saved to terraria_weapons_links.csv")
