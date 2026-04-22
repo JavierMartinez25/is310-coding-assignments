@@ -1,0 +1,137 @@
+{
+    "selected_api": "rawg",
+    "rawg_item": {
+        "name": "Terraria",
+        "released": "2011-05-16",
+        "rating": 4.07,
+        "metacritic": 81
+    },
+    "europeana_items": [
+        {
+            "id": "/2021641/detail_php_id_121064571",
+            "title": [
+                "Jonge kaaimannen in terraria"
+            ],
+            "type": "IMAGE",
+            "dataProvider": [
+                "Gooi en Vechtstreek Archive"
+            ],
+            "country": [
+                "Netherlands"
+            ],
+            "rights": [
+                "http://creativecommons.org/licenses/by-sa/3.0/nl/"
+            ],
+            "edmPreview": [
+                "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fzoeken.archiefgooienvechtstreek.nl%2FHttpHandler%2Ficoon.ico%3Ffile%3D121064568&type=IMAGE"
+            ]
+        },
+        {
+            "id": "/2021641/detail_php_id_121064546",
+            "title": [
+                "Jonge kaaimannen uit terraria"
+            ],
+            "type": "IMAGE",
+            "dataProvider": [
+                "Gooi en Vechtstreek Archive"
+            ],
+            "country": [
+                "Netherlands"
+            ],
+            "rights": [
+                "http://creativecommons.org/licenses/by-sa/3.0/nl/"
+            ],
+            "edmPreview": [
+                "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fzoeken.archiefgooienvechtstreek.nl%2FHttpHandler%2Ficoon.ico%3Ffile%3D121064543&type=IMAGE"
+            ]
+        },
+        {
+            "id": "/0940431/_nnffh1X",
+            "title": [
+                "Mały atlas gadów i płazów : 59 rysunków kolorowych na 12 tablicach",
+                "Mały atlas gadów i płazów : 59 rysunków kolorowych na 12 tablicach",
+                "Small atlas of reptiles and amphibians: 59 color drawings on 12 boards"
+            ],
+            "type": "TEXT",
+            "dataProvider": [
+                "Digital Repository Research Institutes"
+            ],
+            "country": [
+                "Poland"
+            ],
+            "rights": [
+                "http://creativecommons.org/publicdomain/mark/1.0/"
+            ],
+            "edmPreview": [
+                "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Frcin.org.pl%2FContent%2F19455%2FWA058_27014_K2372_Maly-atlas-gad-plaz.pdf&type=TEXT"
+            ]
+        },
+        {
+            "id": "/2051906/data_euscreenXL_https___www_openbeelden_nl_media_648915",
+            "title": [
+                "Wurgslang zorgt voor wereldnieuws",
+                "Weeknummer 70-25",
+                "Strangler makes world news"
+            ],
+            "type": "VIDEO",
+            "dataProvider": [
+                "Netherlands Institute for Sound & Vision"
+            ],
+            "country": [
+                "Netherlands"
+            ],
+            "rights": [
+                "http://creativecommons.org/licenses/by-sa/4.0/"
+            ],
+            "edmPreview": [
+                "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.openbeelden.nl%2Fimages%2F649345%2FWurgslang_zorgt_voor_wereldnieuws_%25280_44%2529.png&type=VIDEO"
+            ]
+        },
+        {
+            "id": "/2051943/data_euscreenXL_EUS_00EE61058BD2416F961807C83C1E3F29",
+            "title": [
+                "Klapperschlangenbiss",
+                "Rattlesnake Bite",
+                "HEUTE IN ÖSTERREICH",
+                "Clip title:",
+                "SERIES TITLE: Today in Austria"
+            ],
+            "type": "VIDEO",
+            "dataProvider": [
+                "Austrian Broadcasting Corporation"
+            ],
+            "country": [
+                "Europe"
+            ],
+            "rights": [
+                "http://rightsstatements.org/vocab/InC/1.0/"
+            ],
+            "edmPreview": [
+                "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimages3.noterik.com%2Fdomain%2Feuscreenxl%2Fuser%2Feu_orf%2Fvideo%2FEUS_00EE61058BD2416F961807C83C1E3F29%2Fimage.jpg&type=VIDEO"
+            ]
+        },
+        {
+            "id": "/2051906/data_euscreenXL_https___www_openbeelden_nl_media_95804",
+            "title": [
+                "Python juveniles in captivity",
+                "Python has young in captivity",
+                "Python jongt in gevangenschap",
+                "Week number 72-33",
+                "Weeknummer 72-33"
+            ],
+            "type": "VIDEO",
+            "dataProvider": [
+                "Netherlands Institute for Sound & Vision"
+            ],
+            "country": [
+                "Netherlands"
+            ],
+            "rights": [
+                "http://creativecommons.org/licenses/by-sa/4.0/"
+            ],
+            "edmPreview": [
+                "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.openbeelden.nl%2Fimages%2F603281%2FPython_jongt_in_gevangenschap_%25280_38%2529.png&type=VIDEO"
+            ]
+        }
+    ]
+}
