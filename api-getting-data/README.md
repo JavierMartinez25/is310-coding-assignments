@@ -1,4 +1,4 @@
-## GETting Culture Across APIs
+## Getting Culture Across APIs
 
 I used the RAWG API to retrieve video game data.
 
